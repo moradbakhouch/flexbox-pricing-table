@@ -43,6 +43,10 @@ body {
   font-size: 2rem;
   font-weight: bold;
 }
+.plan-features {
+  padding: 0;
+}
+
 .plan-features li {
   list-style: none;
   margin-bottom: 20px;
@@ -70,8 +74,9 @@ body {
     flex-direction: column;
     height: 100%;
     margin-bottom: 50px;
+    width: 90%;
   }
   .pricing-plan {
-    min-width: 400px;
+    min-width: 300px;
   }
 }
